@@ -15,7 +15,8 @@ import "./globals.scss";
 
 export const metadata: Metadata = {
   title: "Customer Relationship Management (CRM) System",
-  description: "A modern CRM system for managing customer complaints and interactions.",
+  description:
+    "A modern CRM system for managing customer complaints and interactions.",
 };
 
 export default function RootLayout({
