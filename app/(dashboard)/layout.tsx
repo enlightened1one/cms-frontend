@@ -1,8 +1,9 @@
 import React from 'react'
+import "./globals.scss";
 
 const layout = () => {
   return (
-    <div>
+    <div className='' >
       
     </div>
   )
