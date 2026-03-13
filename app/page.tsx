@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Home() {console.warn("HOME PAGE LOADED")
+export default function Home() {console.log("HOME PAGE LOADED")
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background font-[Inter] dark:bg-black">
