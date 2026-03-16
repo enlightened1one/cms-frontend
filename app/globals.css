@@ -1,5 +1,4 @@
 @import "tailwindcss";
-
 @layer base {
   :root {
     /* Primary: #026451 → HSL: 162 96% 20%  */
