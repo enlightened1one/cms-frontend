@@ -5,6 +5,26 @@
     /* Primary: #026451 → HSL: 162 96% 20%  */
     --color-primary: 162 96% 20%;
     --color-primary-foreground: 0 0% 100%; /* white text on primary */
+    .bg-primary {
+      background-color: hsl(var(--color-primary));
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--color-primary-foreground);
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+  }
+
+  .light-bg{
+      background-color: #F8F8F8;
+  }
+  .primary-text{
+      color: #026451;
   }
 
   .dark {
