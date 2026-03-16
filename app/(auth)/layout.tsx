@@ -9,8 +9,9 @@ export default function AuthLayout({
   return (
     <div className="grid min-h-screen grid-cols-1 md:grid-cols-2 w-screen">
       {/* Left Panel */}
-      <div className="hidden md:flex flex-col justify-between itece bg-primary text-white px-16 py-8 pb-2 gap-8 relative">
+      <div className="hidden md:flex flex-col justify-between itece bg-primary text-white px-16 pt-8 gap-8 relative overflow-y-hidden">
       <img src="/assets/svg/bigDots.svg" className="absolute bottom-0 left-0" alt="" />
+      <img src="/assets/svg/dots.svg" className="absolute top-0 right-0" alt="" />
         <div className="w-full">
           <h1 className="text-[1.5rem] font-semibold">
             Streamline Your Logistics Complaint Management.
@@ -21,18 +22,21 @@ export default function AuthLayout({
           </p>
         </div>
 
-        <div className="flex flex-row justify-center items-center w-full h-full px-4">
-          <div className="h-full flex flex-col justify-center items-center border border-[#f7f7f7] rounded-lg w-[60%] relative">
+        <div className="flex flex-row justify-start items-center w-full h-full">
+          <div className="h-full flex flex-col justify-center items-center border border-[#f7f7f7] border-b-0 rounded-t-[5%] lg:w-[60%] xl:w-[60%] relative">
             <Image
-              src="/assets/png/customer.png"
+              src="/assets/png/customerImg.png"
               alt="happy customer"
-              height={150}
-              width={100}
-              className="absolute -right-[10%] w-[85%] h-[97%]"
+              quality={100}
+              height={800}
+              width={800}
+              className="absolute -right-[10%] top-[10%] w-[90%] lg:w-[95%] h-[97%] rounded-lg"
+              preload
             />
 
-            <img src="/assets/svg/secured.svg" className="absolute z-25 top-[1/4] -right-[35%] w-[40%] " alt="" />
-            <img src="/assets/svg/response.svg" className="absolute z-25 bottom-1.5 right-[20%] " alt="" />
+            <img src="/assets/svg/secured.svg" className="absolute z-25 top-[1/4] -right-[35%] w-[60%] " alt="" />
+            <img src="/assets/svg/response.svg" className="absolute z-25 top-[1/4] left-[35%] w-[60%] " alt="" />
+            <img src="/assets/svg/circle.svg" className="absolute z-25 top-[20%] left-[10%] " alt="" />
           </div>
         </div>
       </div>
