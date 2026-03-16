@@ -31,6 +31,7 @@ $colors: (
   // }
 
   // light variations
+
   @for $i from 1 through 9 {
     .text-#{$key}-light-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
@@ -55,4 +56,20 @@ $colors: (
       background-color: mix(black, $val, $i * 10);
     }
   }
+
+  // example to understand and to remember how this works ( @for loop)
+  // 1
+  //   .text-primary-3 {
+  //   color: #026451;
+  // }
+
+  // 2
+  //   .text-error-3 {
+  //   color: #026451;
+  // }
+
+  // 3
+  //   .bg-primary-4 {
+  //   color: #026451;
+  // }
 }
