@@ -1,6 +1,10 @@
 import React from "react";
 import Form from "next/form";
 
+const compulsoryFields = () => {
+
+}
+
 const page = () => {
   return (
     <div className="flex flex-col h-full w-full gap-2">
@@ -58,8 +62,26 @@ const page = () => {
               required
             />
           </div>
+          {/* -------Password------- */}
+          <div className="input flex flex-col justify-center items-stretch  w-full gap-2">
+            <label htmlFor="password" className="text-sm text-[#414143]">
+              Password <span className="text-[#FF0000]">*</span>
+            </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Create a strong password"
+              className="w-full h-10 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary bg-[#FFFFFF] text-sm"
+              required
+            />
+          </div>
 
         </div>
+
+        <button className="" >
+          Get Started
+        </button>
       </Form>
     </div>
   );
