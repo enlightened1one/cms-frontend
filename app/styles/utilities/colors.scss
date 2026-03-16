@@ -16,6 +16,9 @@ $colors: (
   .text-#{$key} {
     color: $val;
   }
+  .outline-#{$key} {
+    color: $val;
+  }
   .bg-#{$key} {
     background-color: $val;
   }
@@ -37,7 +40,10 @@ $colors: (
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
       color: mix(white, $val, $i * 10);
     }
-
+    .outline-#{$key}-light-#{$i} {
+      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
+      color: mix(white, $val, $i * 10);
+    }
     .bg-#{$key}-light-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
       background-color: mix(white, $val, $i * 10);
@@ -51,6 +57,10 @@ $colors: (
       color: mix(black, $val, $i * 10);
     }
 
+    .outline-#{$key}-dark-#{$i} {
+      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
+      color: mix(black, $val, $i * 10);
+    }
     .bg-#{$key}-dark-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
       background-color: mix(black, $val, $i * 10);
