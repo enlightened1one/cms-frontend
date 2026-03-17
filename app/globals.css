@@ -5,13 +5,7 @@
   :root {
     /* Primary: #026451 → HSL: 162 96% 20%  */
     --color-primary: 162 96% 20%;
-    --color-primary-foreground: 0 0% 100%; /* white text on primary */
-
-    h1 {
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-
+    --color-primary-foreground: 0 0% 100%; /* white text on primary */;
   }
 
   .light-bg{
