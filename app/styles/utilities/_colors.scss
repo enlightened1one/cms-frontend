@@ -1,3 +1,5 @@
+@use "sass:color";
+
 $colors: (
   "primary": #026451,
   "secondary": #ffffff,
@@ -13,13 +15,13 @@ $colors: (
 // scan through each color( @each )
 @each $key, $val in $colors {
   // generate two classes ( .text and .bg)
-  .text-#{$key} {
+  .cms-text-#{$key} {
     color: $val;
   }
-  .outline-#{$key} {
+  .cms-outline-#{$key} {
     color: $val;
   }
-  .bg-#{$key} {
+  .cms-bg-#{$key} {
     background-color: $val;
   }
   // example to understand and to remember how this works
@@ -38,32 +40,32 @@ $colors: (
   @for $i from 1 through 9 {
     .text-#{$key}-light-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
-      color: mix(white, $val, $i * 10);
+      color: color.mix(white, $val, $i * 10%);
     }
     .outline-#{$key}-light-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
-      color: mix(white, $val, $i * 10);
+      color: color.mix(white, $val, $i * 10%);
     }
     .bg-#{$key}-light-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
-      background-color: mix(white, $val, $i * 10);
+      background-color: color.mix(white, $val, $i * 10%);
     }
   }
 
   // dark variations
   @for $i from 1 through 9 {
-    .text-#{$key}-dark-#{$i} {
+    .cms-text-#{$key}-dark-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
-      color: mix(black, $val, $i * 10);
+      color: color.mix(black, $val, $i * 10%);
     }
 
-    .outline-#{$key}-dark-#{$i} {
+    .cms-outline-#{$key}-dark-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
-      color: mix(black, $val, $i * 10);
+      color: color.mix(black, $val, $i * 10%);
     }
-    .bg-#{$key}-dark-#{$i} {
+    .cms-bg-#{$key}-dark-#{$i} {
       // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
-      background-color: mix(black, $val, $i * 10);
+      background-color: color.mix(black, $val, $i * 10%);
     }
   }
 
