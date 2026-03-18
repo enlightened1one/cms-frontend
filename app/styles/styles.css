@@ -1,0 +1,2120 @@
+.cms-text-xs {
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+
+.cms-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25;
+}
+
+.cms-text-base {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cms-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.cms-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.625;
+}
+
+.cms-text-2xl {
+  font-size: 1.5rem;
+  line-height: 1.625;
+}
+
+.cms-text-3xl {
+  font-size: 1.875rem;
+  line-height: 1.625;
+}
+
+.cms-text-4xl {
+  font-size: 2.25rem;
+  line-height: 2;
+}
+
+.cms-font-light {
+  font-weight: 300;
+}
+
+.cms-font-normal {
+  font-weight: 400;
+}
+
+.cms-font-medium {
+  font-weight: 500;
+}
+
+.cms-font-semibold {
+  font-weight: 600;
+}
+
+.cms-font-bold {
+  font-weight: 700;
+}
+
+body {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.cms-text-primary {
+  color: #026451;
+}
+
+.cms-outline-primary {
+  color: #026451;
+}
+
+.cms-bg-primary {
+  background-color: #026451;
+}
+
+.text-primary-light-1 {
+  color: rgb(27.3, 115.5, 98.4);
+}
+
+.outline-primary-light-1 {
+  color: rgb(27.3, 115.5, 98.4);
+}
+
+.bg-primary-light-1 {
+  background-color: rgb(27.3, 115.5, 98.4);
+}
+
+.text-primary-light-2 {
+  color: rgb(52.6, 131, 115.8);
+}
+
+.outline-primary-light-2 {
+  color: rgb(52.6, 131, 115.8);
+}
+
+.bg-primary-light-2 {
+  background-color: rgb(52.6, 131, 115.8);
+}
+
+.text-primary-light-3 {
+  color: rgb(77.9, 146.5, 133.2);
+}
+
+.outline-primary-light-3 {
+  color: rgb(77.9, 146.5, 133.2);
+}
+
+.bg-primary-light-3 {
+  background-color: rgb(77.9, 146.5, 133.2);
+}
+
+.text-primary-light-4 {
+  color: rgb(103.2, 162, 150.6);
+}
+
+.outline-primary-light-4 {
+  color: rgb(103.2, 162, 150.6);
+}
+
+.bg-primary-light-4 {
+  background-color: rgb(103.2, 162, 150.6);
+}
+
+.text-primary-light-5 {
+  color: rgb(128.5, 177.5, 168);
+}
+
+.outline-primary-light-5 {
+  color: rgb(128.5, 177.5, 168);
+}
+
+.bg-primary-light-5 {
+  background-color: rgb(128.5, 177.5, 168);
+}
+
+.text-primary-light-6 {
+  color: rgb(153.8, 193, 185.4);
+}
+
+.outline-primary-light-6 {
+  color: rgb(153.8, 193, 185.4);
+}
+
+.bg-primary-light-6 {
+  background-color: rgb(153.8, 193, 185.4);
+}
+
+.text-primary-light-7 {
+  color: rgb(179.1, 208.5, 202.8);
+}
+
+.outline-primary-light-7 {
+  color: rgb(179.1, 208.5, 202.8);
+}
+
+.bg-primary-light-7 {
+  background-color: rgb(179.1, 208.5, 202.8);
+}
+
+.text-primary-light-8 {
+  color: rgb(204.4, 224, 220.2);
+}
+
+.outline-primary-light-8 {
+  color: rgb(204.4, 224, 220.2);
+}
+
+.bg-primary-light-8 {
+  background-color: rgb(204.4, 224, 220.2);
+}
+
+.text-primary-light-9 {
+  color: rgb(229.7, 239.5, 237.6);
+}
+
+.outline-primary-light-9 {
+  color: rgb(229.7, 239.5, 237.6);
+}
+
+.bg-primary-light-9 {
+  background-color: rgb(229.7, 239.5, 237.6);
+}
+
+.cms-text-primary-dark-1 {
+  color: rgb(1.8, 90, 72.9);
+}
+
+.cms-outline-primary-dark-1 {
+  color: rgb(1.8, 90, 72.9);
+}
+
+.cms-bg-primary-dark-1 {
+  background-color: rgb(1.8, 90, 72.9);
+}
+
+.cms-text-primary-dark-2 {
+  color: rgb(1.6, 80, 64.8);
+}
+
+.cms-outline-primary-dark-2 {
+  color: rgb(1.6, 80, 64.8);
+}
+
+.cms-bg-primary-dark-2 {
+  background-color: rgb(1.6, 80, 64.8);
+}
+
+.cms-text-primary-dark-3 {
+  color: rgb(1.4, 70, 56.7);
+}
+
+.cms-outline-primary-dark-3 {
+  color: rgb(1.4, 70, 56.7);
+}
+
+.cms-bg-primary-dark-3 {
+  background-color: rgb(1.4, 70, 56.7);
+}
+
+.cms-text-primary-dark-4 {
+  color: rgb(1.2, 60, 48.6);
+}
+
+.cms-outline-primary-dark-4 {
+  color: rgb(1.2, 60, 48.6);
+}
+
+.cms-bg-primary-dark-4 {
+  background-color: rgb(1.2, 60, 48.6);
+}
+
+.cms-text-primary-dark-5 {
+  color: rgb(1, 50, 40.5);
+}
+
+.cms-outline-primary-dark-5 {
+  color: rgb(1, 50, 40.5);
+}
+
+.cms-bg-primary-dark-5 {
+  background-color: rgb(1, 50, 40.5);
+}
+
+.cms-text-primary-dark-6 {
+  color: rgb(0.8, 40, 32.4);
+}
+
+.cms-outline-primary-dark-6 {
+  color: rgb(0.8, 40, 32.4);
+}
+
+.cms-bg-primary-dark-6 {
+  background-color: rgb(0.8, 40, 32.4);
+}
+
+.cms-text-primary-dark-7 {
+  color: rgb(0.6, 30, 24.3);
+}
+
+.cms-outline-primary-dark-7 {
+  color: rgb(0.6, 30, 24.3);
+}
+
+.cms-bg-primary-dark-7 {
+  background-color: rgb(0.6, 30, 24.3);
+}
+
+.cms-text-primary-dark-8 {
+  color: rgb(0.4, 20, 16.2);
+}
+
+.cms-outline-primary-dark-8 {
+  color: rgb(0.4, 20, 16.2);
+}
+
+.cms-bg-primary-dark-8 {
+  background-color: rgb(0.4, 20, 16.2);
+}
+
+.cms-text-primary-dark-9 {
+  color: rgb(0.2, 10, 8.1);
+}
+
+.cms-outline-primary-dark-9 {
+  color: rgb(0.2, 10, 8.1);
+}
+
+.cms-bg-primary-dark-9 {
+  background-color: rgb(0.2, 10, 8.1);
+}
+
+.cms-text-secondary {
+  color: #ffffff;
+}
+
+.cms-outline-secondary {
+  color: #ffffff;
+}
+
+.cms-bg-secondary {
+  background-color: #ffffff;
+}
+
+.text-secondary-light-1 {
+  color: white;
+}
+
+.outline-secondary-light-1 {
+  color: white;
+}
+
+.bg-secondary-light-1 {
+  background-color: white;
+}
+
+.text-secondary-light-2 {
+  color: white;
+}
+
+.outline-secondary-light-2 {
+  color: white;
+}
+
+.bg-secondary-light-2 {
+  background-color: white;
+}
+
+.text-secondary-light-3 {
+  color: white;
+}
+
+.outline-secondary-light-3 {
+  color: white;
+}
+
+.bg-secondary-light-3 {
+  background-color: white;
+}
+
+.text-secondary-light-4 {
+  color: white;
+}
+
+.outline-secondary-light-4 {
+  color: white;
+}
+
+.bg-secondary-light-4 {
+  background-color: white;
+}
+
+.text-secondary-light-5 {
+  color: white;
+}
+
+.outline-secondary-light-5 {
+  color: white;
+}
+
+.bg-secondary-light-5 {
+  background-color: white;
+}
+
+.text-secondary-light-6 {
+  color: white;
+}
+
+.outline-secondary-light-6 {
+  color: white;
+}
+
+.bg-secondary-light-6 {
+  background-color: white;
+}
+
+.text-secondary-light-7 {
+  color: white;
+}
+
+.outline-secondary-light-7 {
+  color: white;
+}
+
+.bg-secondary-light-7 {
+  background-color: white;
+}
+
+.text-secondary-light-8 {
+  color: white;
+}
+
+.outline-secondary-light-8 {
+  color: white;
+}
+
+.bg-secondary-light-8 {
+  background-color: white;
+}
+
+.text-secondary-light-9 {
+  color: white;
+}
+
+.outline-secondary-light-9 {
+  color: white;
+}
+
+.bg-secondary-light-9 {
+  background-color: white;
+}
+
+.cms-text-secondary-dark-1 {
+  color: rgb(229.5, 229.5, 229.5);
+}
+
+.cms-outline-secondary-dark-1 {
+  color: rgb(229.5, 229.5, 229.5);
+}
+
+.cms-bg-secondary-dark-1 {
+  background-color: rgb(229.5, 229.5, 229.5);
+}
+
+.cms-text-secondary-dark-2 {
+  color: #cccccc;
+}
+
+.cms-outline-secondary-dark-2 {
+  color: #cccccc;
+}
+
+.cms-bg-secondary-dark-2 {
+  background-color: #cccccc;
+}
+
+.cms-text-secondary-dark-3 {
+  color: rgb(178.5, 178.5, 178.5);
+}
+
+.cms-outline-secondary-dark-3 {
+  color: rgb(178.5, 178.5, 178.5);
+}
+
+.cms-bg-secondary-dark-3 {
+  background-color: rgb(178.5, 178.5, 178.5);
+}
+
+.cms-text-secondary-dark-4 {
+  color: #999999;
+}
+
+.cms-outline-secondary-dark-4 {
+  color: #999999;
+}
+
+.cms-bg-secondary-dark-4 {
+  background-color: #999999;
+}
+
+.cms-text-secondary-dark-5 {
+  color: rgb(127.5, 127.5, 127.5);
+}
+
+.cms-outline-secondary-dark-5 {
+  color: rgb(127.5, 127.5, 127.5);
+}
+
+.cms-bg-secondary-dark-5 {
+  background-color: rgb(127.5, 127.5, 127.5);
+}
+
+.cms-text-secondary-dark-6 {
+  color: #666666;
+}
+
+.cms-outline-secondary-dark-6 {
+  color: #666666;
+}
+
+.cms-bg-secondary-dark-6 {
+  background-color: #666666;
+}
+
+.cms-text-secondary-dark-7 {
+  color: rgb(76.5, 76.5, 76.5);
+}
+
+.cms-outline-secondary-dark-7 {
+  color: rgb(76.5, 76.5, 76.5);
+}
+
+.cms-bg-secondary-dark-7 {
+  background-color: rgb(76.5, 76.5, 76.5);
+}
+
+.cms-text-secondary-dark-8 {
+  color: #333333;
+}
+
+.cms-outline-secondary-dark-8 {
+  color: #333333;
+}
+
+.cms-bg-secondary-dark-8 {
+  background-color: #333333;
+}
+
+.cms-text-secondary-dark-9 {
+  color: rgb(25.5, 25.5, 25.5);
+}
+
+.cms-outline-secondary-dark-9 {
+  color: rgb(25.5, 25.5, 25.5);
+}
+
+.cms-bg-secondary-dark-9 {
+  background-color: rgb(25.5, 25.5, 25.5);
+}
+
+.cms-text-error {
+  color: #e63946;
+}
+
+.cms-outline-error {
+  color: #e63946;
+}
+
+.cms-bg-error {
+  background-color: #e63946;
+}
+
+.text-error-light-1 {
+  color: rgb(232.5, 76.8, 88.5);
+}
+
+.outline-error-light-1 {
+  color: rgb(232.5, 76.8, 88.5);
+}
+
+.bg-error-light-1 {
+  background-color: rgb(232.5, 76.8, 88.5);
+}
+
+.text-error-light-2 {
+  color: rgb(235, 96.6, 107);
+}
+
+.outline-error-light-2 {
+  color: rgb(235, 96.6, 107);
+}
+
+.bg-error-light-2 {
+  background-color: rgb(235, 96.6, 107);
+}
+
+.text-error-light-3 {
+  color: rgb(237.5, 116.4, 125.5);
+}
+
+.outline-error-light-3 {
+  color: rgb(237.5, 116.4, 125.5);
+}
+
+.bg-error-light-3 {
+  background-color: rgb(237.5, 116.4, 125.5);
+}
+
+.text-error-light-4 {
+  color: rgb(240, 136.2, 144);
+}
+
+.outline-error-light-4 {
+  color: rgb(240, 136.2, 144);
+}
+
+.bg-error-light-4 {
+  background-color: rgb(240, 136.2, 144);
+}
+
+.text-error-light-5 {
+  color: rgb(242.5, 156, 162.5);
+}
+
+.outline-error-light-5 {
+  color: rgb(242.5, 156, 162.5);
+}
+
+.bg-error-light-5 {
+  background-color: rgb(242.5, 156, 162.5);
+}
+
+.text-error-light-6 {
+  color: rgb(245, 175.8, 181);
+}
+
+.outline-error-light-6 {
+  color: rgb(245, 175.8, 181);
+}
+
+.bg-error-light-6 {
+  background-color: rgb(245, 175.8, 181);
+}
+
+.text-error-light-7 {
+  color: rgb(247.5, 195.6, 199.5);
+}
+
+.outline-error-light-7 {
+  color: rgb(247.5, 195.6, 199.5);
+}
+
+.bg-error-light-7 {
+  background-color: rgb(247.5, 195.6, 199.5);
+}
+
+.text-error-light-8 {
+  color: rgb(250, 215.4, 218);
+}
+
+.outline-error-light-8 {
+  color: rgb(250, 215.4, 218);
+}
+
+.bg-error-light-8 {
+  background-color: rgb(250, 215.4, 218);
+}
+
+.text-error-light-9 {
+  color: rgb(252.5, 235.2, 236.5);
+}
+
+.outline-error-light-9 {
+  color: rgb(252.5, 235.2, 236.5);
+}
+
+.bg-error-light-9 {
+  background-color: rgb(252.5, 235.2, 236.5);
+}
+
+.cms-text-error-dark-1 {
+  color: rgb(207, 51.3, 63);
+}
+
+.cms-outline-error-dark-1 {
+  color: rgb(207, 51.3, 63);
+}
+
+.cms-bg-error-dark-1 {
+  background-color: rgb(207, 51.3, 63);
+}
+
+.cms-text-error-dark-2 {
+  color: rgb(184, 45.6, 56);
+}
+
+.cms-outline-error-dark-2 {
+  color: rgb(184, 45.6, 56);
+}
+
+.cms-bg-error-dark-2 {
+  background-color: rgb(184, 45.6, 56);
+}
+
+.cms-text-error-dark-3 {
+  color: rgb(161, 39.9, 49);
+}
+
+.cms-outline-error-dark-3 {
+  color: rgb(161, 39.9, 49);
+}
+
+.cms-bg-error-dark-3 {
+  background-color: rgb(161, 39.9, 49);
+}
+
+.cms-text-error-dark-4 {
+  color: rgb(138, 34.2, 42);
+}
+
+.cms-outline-error-dark-4 {
+  color: rgb(138, 34.2, 42);
+}
+
+.cms-bg-error-dark-4 {
+  background-color: rgb(138, 34.2, 42);
+}
+
+.cms-text-error-dark-5 {
+  color: rgb(115, 28.5, 35);
+}
+
+.cms-outline-error-dark-5 {
+  color: rgb(115, 28.5, 35);
+}
+
+.cms-bg-error-dark-5 {
+  background-color: rgb(115, 28.5, 35);
+}
+
+.cms-text-error-dark-6 {
+  color: rgb(92, 22.8, 28);
+}
+
+.cms-outline-error-dark-6 {
+  color: rgb(92, 22.8, 28);
+}
+
+.cms-bg-error-dark-6 {
+  background-color: rgb(92, 22.8, 28);
+}
+
+.cms-text-error-dark-7 {
+  color: rgb(69, 17.1, 21);
+}
+
+.cms-outline-error-dark-7 {
+  color: rgb(69, 17.1, 21);
+}
+
+.cms-bg-error-dark-7 {
+  background-color: rgb(69, 17.1, 21);
+}
+
+.cms-text-error-dark-8 {
+  color: rgb(46, 11.4, 14);
+}
+
+.cms-outline-error-dark-8 {
+  color: rgb(46, 11.4, 14);
+}
+
+.cms-bg-error-dark-8 {
+  background-color: rgb(46, 11.4, 14);
+}
+
+.cms-text-error-dark-9 {
+  color: rgb(23, 5.7, 7);
+}
+
+.cms-outline-error-dark-9 {
+  color: rgb(23, 5.7, 7);
+}
+
+.cms-bg-error-dark-9 {
+  background-color: rgb(23, 5.7, 7);
+}
+
+.cms-text-black {
+  color: #000000;
+}
+
+.cms-outline-black {
+  color: #000000;
+}
+
+.cms-bg-black {
+  background-color: #000000;
+}
+
+.text-black-light-1 {
+  color: rgb(25.5, 25.5, 25.5);
+}
+
+.outline-black-light-1 {
+  color: rgb(25.5, 25.5, 25.5);
+}
+
+.bg-black-light-1 {
+  background-color: rgb(25.5, 25.5, 25.5);
+}
+
+.text-black-light-2 {
+  color: #333333;
+}
+
+.outline-black-light-2 {
+  color: #333333;
+}
+
+.bg-black-light-2 {
+  background-color: #333333;
+}
+
+.text-black-light-3 {
+  color: rgb(76.5, 76.5, 76.5);
+}
+
+.outline-black-light-3 {
+  color: rgb(76.5, 76.5, 76.5);
+}
+
+.bg-black-light-3 {
+  background-color: rgb(76.5, 76.5, 76.5);
+}
+
+.text-black-light-4 {
+  color: #666666;
+}
+
+.outline-black-light-4 {
+  color: #666666;
+}
+
+.bg-black-light-4 {
+  background-color: #666666;
+}
+
+.text-black-light-5 {
+  color: rgb(127.5, 127.5, 127.5);
+}
+
+.outline-black-light-5 {
+  color: rgb(127.5, 127.5, 127.5);
+}
+
+.bg-black-light-5 {
+  background-color: rgb(127.5, 127.5, 127.5);
+}
+
+.text-black-light-6 {
+  color: #999999;
+}
+
+.outline-black-light-6 {
+  color: #999999;
+}
+
+.bg-black-light-6 {
+  background-color: #999999;
+}
+
+.text-black-light-7 {
+  color: rgb(178.5, 178.5, 178.5);
+}
+
+.outline-black-light-7 {
+  color: rgb(178.5, 178.5, 178.5);
+}
+
+.bg-black-light-7 {
+  background-color: rgb(178.5, 178.5, 178.5);
+}
+
+.text-black-light-8 {
+  color: #cccccc;
+}
+
+.outline-black-light-8 {
+  color: #cccccc;
+}
+
+.bg-black-light-8 {
+  background-color: #cccccc;
+}
+
+.text-black-light-9 {
+  color: rgb(229.5, 229.5, 229.5);
+}
+
+.outline-black-light-9 {
+  color: rgb(229.5, 229.5, 229.5);
+}
+
+.bg-black-light-9 {
+  background-color: rgb(229.5, 229.5, 229.5);
+}
+
+.cms-text-black-dark-1 {
+  color: black;
+}
+
+.cms-outline-black-dark-1 {
+  color: black;
+}
+
+.cms-bg-black-dark-1 {
+  background-color: black;
+}
+
+.cms-text-black-dark-2 {
+  color: black;
+}
+
+.cms-outline-black-dark-2 {
+  color: black;
+}
+
+.cms-bg-black-dark-2 {
+  background-color: black;
+}
+
+.cms-text-black-dark-3 {
+  color: black;
+}
+
+.cms-outline-black-dark-3 {
+  color: black;
+}
+
+.cms-bg-black-dark-3 {
+  background-color: black;
+}
+
+.cms-text-black-dark-4 {
+  color: black;
+}
+
+.cms-outline-black-dark-4 {
+  color: black;
+}
+
+.cms-bg-black-dark-4 {
+  background-color: black;
+}
+
+.cms-text-black-dark-5 {
+  color: black;
+}
+
+.cms-outline-black-dark-5 {
+  color: black;
+}
+
+.cms-bg-black-dark-5 {
+  background-color: black;
+}
+
+.cms-text-black-dark-6 {
+  color: black;
+}
+
+.cms-outline-black-dark-6 {
+  color: black;
+}
+
+.cms-bg-black-dark-6 {
+  background-color: black;
+}
+
+.cms-text-black-dark-7 {
+  color: black;
+}
+
+.cms-outline-black-dark-7 {
+  color: black;
+}
+
+.cms-bg-black-dark-7 {
+  background-color: black;
+}
+
+.cms-text-black-dark-8 {
+  color: black;
+}
+
+.cms-outline-black-dark-8 {
+  color: black;
+}
+
+.cms-bg-black-dark-8 {
+  background-color: black;
+}
+
+.cms-text-black-dark-9 {
+  color: black;
+}
+
+.cms-outline-black-dark-9 {
+  color: black;
+}
+
+.cms-bg-black-dark-9 {
+  background-color: black;
+}
+
+.cms-text-orange {
+  color: #f4a261;
+}
+
+.cms-outline-orange {
+  color: #f4a261;
+}
+
+.cms-bg-orange {
+  background-color: #f4a261;
+}
+
+.text-orange-light-1 {
+  color: rgb(245.1, 171.3, 112.8);
+}
+
+.outline-orange-light-1 {
+  color: rgb(245.1, 171.3, 112.8);
+}
+
+.bg-orange-light-1 {
+  background-color: rgb(245.1, 171.3, 112.8);
+}
+
+.text-orange-light-2 {
+  color: rgb(246.2, 180.6, 128.6);
+}
+
+.outline-orange-light-2 {
+  color: rgb(246.2, 180.6, 128.6);
+}
+
+.bg-orange-light-2 {
+  background-color: rgb(246.2, 180.6, 128.6);
+}
+
+.text-orange-light-3 {
+  color: rgb(247.3, 189.9, 144.4);
+}
+
+.outline-orange-light-3 {
+  color: rgb(247.3, 189.9, 144.4);
+}
+
+.bg-orange-light-3 {
+  background-color: rgb(247.3, 189.9, 144.4);
+}
+
+.text-orange-light-4 {
+  color: rgb(248.4, 199.2, 160.2);
+}
+
+.outline-orange-light-4 {
+  color: rgb(248.4, 199.2, 160.2);
+}
+
+.bg-orange-light-4 {
+  background-color: rgb(248.4, 199.2, 160.2);
+}
+
+.text-orange-light-5 {
+  color: rgb(249.5, 208.5, 176);
+}
+
+.outline-orange-light-5 {
+  color: rgb(249.5, 208.5, 176);
+}
+
+.bg-orange-light-5 {
+  background-color: rgb(249.5, 208.5, 176);
+}
+
+.text-orange-light-6 {
+  color: rgb(250.6, 217.8, 191.8);
+}
+
+.outline-orange-light-6 {
+  color: rgb(250.6, 217.8, 191.8);
+}
+
+.bg-orange-light-6 {
+  background-color: rgb(250.6, 217.8, 191.8);
+}
+
+.text-orange-light-7 {
+  color: rgb(251.7, 227.1, 207.6);
+}
+
+.outline-orange-light-7 {
+  color: rgb(251.7, 227.1, 207.6);
+}
+
+.bg-orange-light-7 {
+  background-color: rgb(251.7, 227.1, 207.6);
+}
+
+.text-orange-light-8 {
+  color: rgb(252.8, 236.4, 223.4);
+}
+
+.outline-orange-light-8 {
+  color: rgb(252.8, 236.4, 223.4);
+}
+
+.bg-orange-light-8 {
+  background-color: rgb(252.8, 236.4, 223.4);
+}
+
+.text-orange-light-9 {
+  color: rgb(253.9, 245.7, 239.2);
+}
+
+.outline-orange-light-9 {
+  color: rgb(253.9, 245.7, 239.2);
+}
+
+.bg-orange-light-9 {
+  background-color: rgb(253.9, 245.7, 239.2);
+}
+
+.cms-text-orange-dark-1 {
+  color: rgb(219.6, 145.8, 87.3);
+}
+
+.cms-outline-orange-dark-1 {
+  color: rgb(219.6, 145.8, 87.3);
+}
+
+.cms-bg-orange-dark-1 {
+  background-color: rgb(219.6, 145.8, 87.3);
+}
+
+.cms-text-orange-dark-2 {
+  color: rgb(195.2, 129.6, 77.6);
+}
+
+.cms-outline-orange-dark-2 {
+  color: rgb(195.2, 129.6, 77.6);
+}
+
+.cms-bg-orange-dark-2 {
+  background-color: rgb(195.2, 129.6, 77.6);
+}
+
+.cms-text-orange-dark-3 {
+  color: rgb(170.8, 113.4, 67.9);
+}
+
+.cms-outline-orange-dark-3 {
+  color: rgb(170.8, 113.4, 67.9);
+}
+
+.cms-bg-orange-dark-3 {
+  background-color: rgb(170.8, 113.4, 67.9);
+}
+
+.cms-text-orange-dark-4 {
+  color: rgb(146.4, 97.2, 58.2);
+}
+
+.cms-outline-orange-dark-4 {
+  color: rgb(146.4, 97.2, 58.2);
+}
+
+.cms-bg-orange-dark-4 {
+  background-color: rgb(146.4, 97.2, 58.2);
+}
+
+.cms-text-orange-dark-5 {
+  color: rgb(122, 81, 48.5);
+}
+
+.cms-outline-orange-dark-5 {
+  color: rgb(122, 81, 48.5);
+}
+
+.cms-bg-orange-dark-5 {
+  background-color: rgb(122, 81, 48.5);
+}
+
+.cms-text-orange-dark-6 {
+  color: rgb(97.6, 64.8, 38.8);
+}
+
+.cms-outline-orange-dark-6 {
+  color: rgb(97.6, 64.8, 38.8);
+}
+
+.cms-bg-orange-dark-6 {
+  background-color: rgb(97.6, 64.8, 38.8);
+}
+
+.cms-text-orange-dark-7 {
+  color: rgb(73.2, 48.6, 29.1);
+}
+
+.cms-outline-orange-dark-7 {
+  color: rgb(73.2, 48.6, 29.1);
+}
+
+.cms-bg-orange-dark-7 {
+  background-color: rgb(73.2, 48.6, 29.1);
+}
+
+.cms-text-orange-dark-8 {
+  color: rgb(48.8, 32.4, 19.4);
+}
+
+.cms-outline-orange-dark-8 {
+  color: rgb(48.8, 32.4, 19.4);
+}
+
+.cms-bg-orange-dark-8 {
+  background-color: rgb(48.8, 32.4, 19.4);
+}
+
+.cms-text-orange-dark-9 {
+  color: rgb(24.4, 16.2, 9.7);
+}
+
+.cms-outline-orange-dark-9 {
+  color: rgb(24.4, 16.2, 9.7);
+}
+
+.cms-bg-orange-dark-9 {
+  background-color: rgb(24.4, 16.2, 9.7);
+}
+
+.cms-text-gray {
+  color: #a7a7a7;
+}
+
+.cms-outline-gray {
+  color: #a7a7a7;
+}
+
+.cms-bg-gray {
+  background-color: #a7a7a7;
+}
+
+.text-gray-light-1 {
+  color: rgb(175.8, 175.8, 175.8);
+}
+
+.outline-gray-light-1 {
+  color: rgb(175.8, 175.8, 175.8);
+}
+
+.bg-gray-light-1 {
+  background-color: rgb(175.8, 175.8, 175.8);
+}
+
+.text-gray-light-2 {
+  color: rgb(184.6, 184.6, 184.6);
+}
+
+.outline-gray-light-2 {
+  color: rgb(184.6, 184.6, 184.6);
+}
+
+.bg-gray-light-2 {
+  background-color: rgb(184.6, 184.6, 184.6);
+}
+
+.text-gray-light-3 {
+  color: rgb(193.4, 193.4, 193.4);
+}
+
+.outline-gray-light-3 {
+  color: rgb(193.4, 193.4, 193.4);
+}
+
+.bg-gray-light-3 {
+  background-color: rgb(193.4, 193.4, 193.4);
+}
+
+.text-gray-light-4 {
+  color: rgb(202.2, 202.2, 202.2);
+}
+
+.outline-gray-light-4 {
+  color: rgb(202.2, 202.2, 202.2);
+}
+
+.bg-gray-light-4 {
+  background-color: rgb(202.2, 202.2, 202.2);
+}
+
+.text-gray-light-5 {
+  color: lightgray;
+}
+
+.outline-gray-light-5 {
+  color: lightgray;
+}
+
+.bg-gray-light-5 {
+  background-color: lightgray;
+}
+
+.text-gray-light-6 {
+  color: rgb(219.8, 219.8, 219.8);
+}
+
+.outline-gray-light-6 {
+  color: rgb(219.8, 219.8, 219.8);
+}
+
+.bg-gray-light-6 {
+  background-color: rgb(219.8, 219.8, 219.8);
+}
+
+.text-gray-light-7 {
+  color: rgb(228.6, 228.6, 228.6);
+}
+
+.outline-gray-light-7 {
+  color: rgb(228.6, 228.6, 228.6);
+}
+
+.bg-gray-light-7 {
+  background-color: rgb(228.6, 228.6, 228.6);
+}
+
+.text-gray-light-8 {
+  color: rgb(237.4, 237.4, 237.4);
+}
+
+.outline-gray-light-8 {
+  color: rgb(237.4, 237.4, 237.4);
+}
+
+.bg-gray-light-8 {
+  background-color: rgb(237.4, 237.4, 237.4);
+}
+
+.text-gray-light-9 {
+  color: rgb(246.2, 246.2, 246.2);
+}
+
+.outline-gray-light-9 {
+  color: rgb(246.2, 246.2, 246.2);
+}
+
+.bg-gray-light-9 {
+  background-color: rgb(246.2, 246.2, 246.2);
+}
+
+.cms-text-gray-dark-1 {
+  color: rgb(150.3, 150.3, 150.3);
+}
+
+.cms-outline-gray-dark-1 {
+  color: rgb(150.3, 150.3, 150.3);
+}
+
+.cms-bg-gray-dark-1 {
+  background-color: rgb(150.3, 150.3, 150.3);
+}
+
+.cms-text-gray-dark-2 {
+  color: rgb(133.6, 133.6, 133.6);
+}
+
+.cms-outline-gray-dark-2 {
+  color: rgb(133.6, 133.6, 133.6);
+}
+
+.cms-bg-gray-dark-2 {
+  background-color: rgb(133.6, 133.6, 133.6);
+}
+
+.cms-text-gray-dark-3 {
+  color: rgb(116.9, 116.9, 116.9);
+}
+
+.cms-outline-gray-dark-3 {
+  color: rgb(116.9, 116.9, 116.9);
+}
+
+.cms-bg-gray-dark-3 {
+  background-color: rgb(116.9, 116.9, 116.9);
+}
+
+.cms-text-gray-dark-4 {
+  color: rgb(100.2, 100.2, 100.2);
+}
+
+.cms-outline-gray-dark-4 {
+  color: rgb(100.2, 100.2, 100.2);
+}
+
+.cms-bg-gray-dark-4 {
+  background-color: rgb(100.2, 100.2, 100.2);
+}
+
+.cms-text-gray-dark-5 {
+  color: rgb(83.5, 83.5, 83.5);
+}
+
+.cms-outline-gray-dark-5 {
+  color: rgb(83.5, 83.5, 83.5);
+}
+
+.cms-bg-gray-dark-5 {
+  background-color: rgb(83.5, 83.5, 83.5);
+}
+
+.cms-text-gray-dark-6 {
+  color: rgb(66.8, 66.8, 66.8);
+}
+
+.cms-outline-gray-dark-6 {
+  color: rgb(66.8, 66.8, 66.8);
+}
+
+.cms-bg-gray-dark-6 {
+  background-color: rgb(66.8, 66.8, 66.8);
+}
+
+.cms-text-gray-dark-7 {
+  color: rgb(50.1, 50.1, 50.1);
+}
+
+.cms-outline-gray-dark-7 {
+  color: rgb(50.1, 50.1, 50.1);
+}
+
+.cms-bg-gray-dark-7 {
+  background-color: rgb(50.1, 50.1, 50.1);
+}
+
+.cms-text-gray-dark-8 {
+  color: rgb(33.4, 33.4, 33.4);
+}
+
+.cms-outline-gray-dark-8 {
+  color: rgb(33.4, 33.4, 33.4);
+}
+
+.cms-bg-gray-dark-8 {
+  background-color: rgb(33.4, 33.4, 33.4);
+}
+
+.cms-text-gray-dark-9 {
+  color: rgb(16.7, 16.7, 16.7);
+}
+
+.cms-outline-gray-dark-9 {
+  color: rgb(16.7, 16.7, 16.7);
+}
+
+.cms-bg-gray-dark-9 {
+  background-color: rgb(16.7, 16.7, 16.7);
+}
+
+.cms-text-purple {
+  color: #6c5ce7;
+}
+
+.cms-outline-purple {
+  color: #6c5ce7;
+}
+
+.cms-bg-purple {
+  background-color: #6c5ce7;
+}
+
+.text-purple-light-1 {
+  color: rgb(122.7, 108.3, 233.4);
+}
+
+.outline-purple-light-1 {
+  color: rgb(122.7, 108.3, 233.4);
+}
+
+.bg-purple-light-1 {
+  background-color: rgb(122.7, 108.3, 233.4);
+}
+
+.text-purple-light-2 {
+  color: rgb(137.4, 124.6, 235.8);
+}
+
+.outline-purple-light-2 {
+  color: rgb(137.4, 124.6, 235.8);
+}
+
+.bg-purple-light-2 {
+  background-color: rgb(137.4, 124.6, 235.8);
+}
+
+.text-purple-light-3 {
+  color: rgb(152.1, 140.9, 238.2);
+}
+
+.outline-purple-light-3 {
+  color: rgb(152.1, 140.9, 238.2);
+}
+
+.bg-purple-light-3 {
+  background-color: rgb(152.1, 140.9, 238.2);
+}
+
+.text-purple-light-4 {
+  color: rgb(166.8, 157.2, 240.6);
+}
+
+.outline-purple-light-4 {
+  color: rgb(166.8, 157.2, 240.6);
+}
+
+.bg-purple-light-4 {
+  background-color: rgb(166.8, 157.2, 240.6);
+}
+
+.text-purple-light-5 {
+  color: rgb(181.5, 173.5, 243);
+}
+
+.outline-purple-light-5 {
+  color: rgb(181.5, 173.5, 243);
+}
+
+.bg-purple-light-5 {
+  background-color: rgb(181.5, 173.5, 243);
+}
+
+.text-purple-light-6 {
+  color: rgb(196.2, 189.8, 245.4);
+}
+
+.outline-purple-light-6 {
+  color: rgb(196.2, 189.8, 245.4);
+}
+
+.bg-purple-light-6 {
+  background-color: rgb(196.2, 189.8, 245.4);
+}
+
+.text-purple-light-7 {
+  color: rgb(210.9, 206.1, 247.8);
+}
+
+.outline-purple-light-7 {
+  color: rgb(210.9, 206.1, 247.8);
+}
+
+.bg-purple-light-7 {
+  background-color: rgb(210.9, 206.1, 247.8);
+}
+
+.text-purple-light-8 {
+  color: rgb(225.6, 222.4, 250.2);
+}
+
+.outline-purple-light-8 {
+  color: rgb(225.6, 222.4, 250.2);
+}
+
+.bg-purple-light-8 {
+  background-color: rgb(225.6, 222.4, 250.2);
+}
+
+.text-purple-light-9 {
+  color: rgb(240.3, 238.7, 252.6);
+}
+
+.outline-purple-light-9 {
+  color: rgb(240.3, 238.7, 252.6);
+}
+
+.bg-purple-light-9 {
+  background-color: rgb(240.3, 238.7, 252.6);
+}
+
+.cms-text-purple-dark-1 {
+  color: rgb(97.2, 82.8, 207.9);
+}
+
+.cms-outline-purple-dark-1 {
+  color: rgb(97.2, 82.8, 207.9);
+}
+
+.cms-bg-purple-dark-1 {
+  background-color: rgb(97.2, 82.8, 207.9);
+}
+
+.cms-text-purple-dark-2 {
+  color: rgb(86.4, 73.6, 184.8);
+}
+
+.cms-outline-purple-dark-2 {
+  color: rgb(86.4, 73.6, 184.8);
+}
+
+.cms-bg-purple-dark-2 {
+  background-color: rgb(86.4, 73.6, 184.8);
+}
+
+.cms-text-purple-dark-3 {
+  color: rgb(75.6, 64.4, 161.7);
+}
+
+.cms-outline-purple-dark-3 {
+  color: rgb(75.6, 64.4, 161.7);
+}
+
+.cms-bg-purple-dark-3 {
+  background-color: rgb(75.6, 64.4, 161.7);
+}
+
+.cms-text-purple-dark-4 {
+  color: rgb(64.8, 55.2, 138.6);
+}
+
+.cms-outline-purple-dark-4 {
+  color: rgb(64.8, 55.2, 138.6);
+}
+
+.cms-bg-purple-dark-4 {
+  background-color: rgb(64.8, 55.2, 138.6);
+}
+
+.cms-text-purple-dark-5 {
+  color: rgb(54, 46, 115.5);
+}
+
+.cms-outline-purple-dark-5 {
+  color: rgb(54, 46, 115.5);
+}
+
+.cms-bg-purple-dark-5 {
+  background-color: rgb(54, 46, 115.5);
+}
+
+.cms-text-purple-dark-6 {
+  color: rgb(43.2, 36.8, 92.4);
+}
+
+.cms-outline-purple-dark-6 {
+  color: rgb(43.2, 36.8, 92.4);
+}
+
+.cms-bg-purple-dark-6 {
+  background-color: rgb(43.2, 36.8, 92.4);
+}
+
+.cms-text-purple-dark-7 {
+  color: rgb(32.4, 27.6, 69.3);
+}
+
+.cms-outline-purple-dark-7 {
+  color: rgb(32.4, 27.6, 69.3);
+}
+
+.cms-bg-purple-dark-7 {
+  background-color: rgb(32.4, 27.6, 69.3);
+}
+
+.cms-text-purple-dark-8 {
+  color: rgb(21.6, 18.4, 46.2);
+}
+
+.cms-outline-purple-dark-8 {
+  color: rgb(21.6, 18.4, 46.2);
+}
+
+.cms-bg-purple-dark-8 {
+  background-color: rgb(21.6, 18.4, 46.2);
+}
+
+.cms-text-purple-dark-9 {
+  color: rgb(10.8, 9.2, 23.1);
+}
+
+.cms-outline-purple-dark-9 {
+  color: rgb(10.8, 9.2, 23.1);
+}
+
+.cms-bg-purple-dark-9 {
+  background-color: rgb(10.8, 9.2, 23.1);
+}
+
+.cms-text-green {
+  color: #2ecc71;
+}
+
+.cms-outline-green {
+  color: #2ecc71;
+}
+
+.cms-bg-green {
+  background-color: #2ecc71;
+}
+
+.text-green-light-1 {
+  color: rgb(66.9, 209.1, 127.2);
+}
+
+.outline-green-light-1 {
+  color: rgb(66.9, 209.1, 127.2);
+}
+
+.bg-green-light-1 {
+  background-color: rgb(66.9, 209.1, 127.2);
+}
+
+.text-green-light-2 {
+  color: rgb(87.8, 214.2, 141.4);
+}
+
+.outline-green-light-2 {
+  color: rgb(87.8, 214.2, 141.4);
+}
+
+.bg-green-light-2 {
+  background-color: rgb(87.8, 214.2, 141.4);
+}
+
+.text-green-light-3 {
+  color: rgb(108.7, 219.3, 155.6);
+}
+
+.outline-green-light-3 {
+  color: rgb(108.7, 219.3, 155.6);
+}
+
+.bg-green-light-3 {
+  background-color: rgb(108.7, 219.3, 155.6);
+}
+
+.text-green-light-4 {
+  color: rgb(129.6, 224.4, 169.8);
+}
+
+.outline-green-light-4 {
+  color: rgb(129.6, 224.4, 169.8);
+}
+
+.bg-green-light-4 {
+  background-color: rgb(129.6, 224.4, 169.8);
+}
+
+.text-green-light-5 {
+  color: rgb(150.5, 229.5, 184);
+}
+
+.outline-green-light-5 {
+  color: rgb(150.5, 229.5, 184);
+}
+
+.bg-green-light-5 {
+  background-color: rgb(150.5, 229.5, 184);
+}
+
+.text-green-light-6 {
+  color: rgb(171.4, 234.6, 198.2);
+}
+
+.outline-green-light-6 {
+  color: rgb(171.4, 234.6, 198.2);
+}
+
+.bg-green-light-6 {
+  background-color: rgb(171.4, 234.6, 198.2);
+}
+
+.text-green-light-7 {
+  color: rgb(192.3, 239.7, 212.4);
+}
+
+.outline-green-light-7 {
+  color: rgb(192.3, 239.7, 212.4);
+}
+
+.bg-green-light-7 {
+  background-color: rgb(192.3, 239.7, 212.4);
+}
+
+.text-green-light-8 {
+  color: rgb(213.2, 244.8, 226.6);
+}
+
+.outline-green-light-8 {
+  color: rgb(213.2, 244.8, 226.6);
+}
+
+.bg-green-light-8 {
+  background-color: rgb(213.2, 244.8, 226.6);
+}
+
+.text-green-light-9 {
+  color: rgb(234.1, 249.9, 240.8);
+}
+
+.outline-green-light-9 {
+  color: rgb(234.1, 249.9, 240.8);
+}
+
+.bg-green-light-9 {
+  background-color: rgb(234.1, 249.9, 240.8);
+}
+
+.cms-text-green-dark-1 {
+  color: rgb(41.4, 183.6, 101.7);
+}
+
+.cms-outline-green-dark-1 {
+  color: rgb(41.4, 183.6, 101.7);
+}
+
+.cms-bg-green-dark-1 {
+  background-color: rgb(41.4, 183.6, 101.7);
+}
+
+.cms-text-green-dark-2 {
+  color: rgb(36.8, 163.2, 90.4);
+}
+
+.cms-outline-green-dark-2 {
+  color: rgb(36.8, 163.2, 90.4);
+}
+
+.cms-bg-green-dark-2 {
+  background-color: rgb(36.8, 163.2, 90.4);
+}
+
+.cms-text-green-dark-3 {
+  color: rgb(32.2, 142.8, 79.1);
+}
+
+.cms-outline-green-dark-3 {
+  color: rgb(32.2, 142.8, 79.1);
+}
+
+.cms-bg-green-dark-3 {
+  background-color: rgb(32.2, 142.8, 79.1);
+}
+
+.cms-text-green-dark-4 {
+  color: rgb(27.6, 122.4, 67.8);
+}
+
+.cms-outline-green-dark-4 {
+  color: rgb(27.6, 122.4, 67.8);
+}
+
+.cms-bg-green-dark-4 {
+  background-color: rgb(27.6, 122.4, 67.8);
+}
+
+.cms-text-green-dark-5 {
+  color: rgb(23, 102, 56.5);
+}
+
+.cms-outline-green-dark-5 {
+  color: rgb(23, 102, 56.5);
+}
+
+.cms-bg-green-dark-5 {
+  background-color: rgb(23, 102, 56.5);
+}
+
+.cms-text-green-dark-6 {
+  color: rgb(18.4, 81.6, 45.2);
+}
+
+.cms-outline-green-dark-6 {
+  color: rgb(18.4, 81.6, 45.2);
+}
+
+.cms-bg-green-dark-6 {
+  background-color: rgb(18.4, 81.6, 45.2);
+}
+
+.cms-text-green-dark-7 {
+  color: rgb(13.8, 61.2, 33.9);
+}
+
+.cms-outline-green-dark-7 {
+  color: rgb(13.8, 61.2, 33.9);
+}
+
+.cms-bg-green-dark-7 {
+  background-color: rgb(13.8, 61.2, 33.9);
+}
+
+.cms-text-green-dark-8 {
+  color: rgb(9.2, 40.8, 22.6);
+}
+
+.cms-outline-green-dark-8 {
+  color: rgb(9.2, 40.8, 22.6);
+}
+
+.cms-bg-green-dark-8 {
+  background-color: rgb(9.2, 40.8, 22.6);
+}
+
+.cms-text-green-dark-9 {
+  color: rgb(4.6, 20.4, 11.3);
+}
+
+.cms-outline-green-dark-9 {
+  color: rgb(4.6, 20.4, 11.3);
+}
+
+.cms-bg-green-dark-9 {
+  background-color: rgb(4.6, 20.4, 11.3);
+}
+
+.cms-text-blue {
+  color: #1e90ff;
+}
+
+.cms-outline-blue {
+  color: #1e90ff;
+}
+
+.cms-bg-blue {
+  background-color: #1e90ff;
+}
+
+.text-blue-light-1 {
+  color: rgb(52.5, 155.1, 255);
+}
+
+.outline-blue-light-1 {
+  color: rgb(52.5, 155.1, 255);
+}
+
+.bg-blue-light-1 {
+  background-color: rgb(52.5, 155.1, 255);
+}
+
+.text-blue-light-2 {
+  color: rgb(75, 166.2, 255);
+}
+
+.outline-blue-light-2 {
+  color: rgb(75, 166.2, 255);
+}
+
+.bg-blue-light-2 {
+  background-color: rgb(75, 166.2, 255);
+}
+
+.text-blue-light-3 {
+  color: rgb(97.5, 177.3, 255);
+}
+
+.outline-blue-light-3 {
+  color: rgb(97.5, 177.3, 255);
+}
+
+.bg-blue-light-3 {
+  background-color: rgb(97.5, 177.3, 255);
+}
+
+.text-blue-light-4 {
+  color: rgb(120, 188.4, 255);
+}
+
+.outline-blue-light-4 {
+  color: rgb(120, 188.4, 255);
+}
+
+.bg-blue-light-4 {
+  background-color: rgb(120, 188.4, 255);
+}
+
+.text-blue-light-5 {
+  color: rgb(142.5, 199.5, 255);
+}
+
+.outline-blue-light-5 {
+  color: rgb(142.5, 199.5, 255);
+}
+
+.bg-blue-light-5 {
+  background-color: rgb(142.5, 199.5, 255);
+}
+
+.text-blue-light-6 {
+  color: rgb(165, 210.6, 255);
+}
+
+.outline-blue-light-6 {
+  color: rgb(165, 210.6, 255);
+}
+
+.bg-blue-light-6 {
+  background-color: rgb(165, 210.6, 255);
+}
+
+.text-blue-light-7 {
+  color: rgb(187.5, 221.7, 255);
+}
+
+.outline-blue-light-7 {
+  color: rgb(187.5, 221.7, 255);
+}
+
+.bg-blue-light-7 {
+  background-color: rgb(187.5, 221.7, 255);
+}
+
+.text-blue-light-8 {
+  color: rgb(210, 232.8, 255);
+}
+
+.outline-blue-light-8 {
+  color: rgb(210, 232.8, 255);
+}
+
+.bg-blue-light-8 {
+  background-color: rgb(210, 232.8, 255);
+}
+
+.text-blue-light-9 {
+  color: rgb(232.5, 243.9, 255);
+}
+
+.outline-blue-light-9 {
+  color: rgb(232.5, 243.9, 255);
+}
+
+.bg-blue-light-9 {
+  background-color: rgb(232.5, 243.9, 255);
+}
+
+.cms-text-blue-dark-1 {
+  color: rgb(27, 129.6, 229.5);
+}
+
+.cms-outline-blue-dark-1 {
+  color: rgb(27, 129.6, 229.5);
+}
+
+.cms-bg-blue-dark-1 {
+  background-color: rgb(27, 129.6, 229.5);
+}
+
+.cms-text-blue-dark-2 {
+  color: rgb(24, 115.2, 204);
+}
+
+.cms-outline-blue-dark-2 {
+  color: rgb(24, 115.2, 204);
+}
+
+.cms-bg-blue-dark-2 {
+  background-color: rgb(24, 115.2, 204);
+}
+
+.cms-text-blue-dark-3 {
+  color: rgb(21, 100.8, 178.5);
+}
+
+.cms-outline-blue-dark-3 {
+  color: rgb(21, 100.8, 178.5);
+}
+
+.cms-bg-blue-dark-3 {
+  background-color: rgb(21, 100.8, 178.5);
+}
+
+.cms-text-blue-dark-4 {
+  color: rgb(18, 86.4, 153);
+}
+
+.cms-outline-blue-dark-4 {
+  color: rgb(18, 86.4, 153);
+}
+
+.cms-bg-blue-dark-4 {
+  background-color: rgb(18, 86.4, 153);
+}
+
+.cms-text-blue-dark-5 {
+  color: rgb(15, 72, 127.5);
+}
+
+.cms-outline-blue-dark-5 {
+  color: rgb(15, 72, 127.5);
+}
+
+.cms-bg-blue-dark-5 {
+  background-color: rgb(15, 72, 127.5);
+}
+
+.cms-text-blue-dark-6 {
+  color: rgb(12, 57.6, 102);
+}
+
+.cms-outline-blue-dark-6 {
+  color: rgb(12, 57.6, 102);
+}
+
+.cms-bg-blue-dark-6 {
+  background-color: rgb(12, 57.6, 102);
+}
+
+.cms-text-blue-dark-7 {
+  color: rgb(9, 43.2, 76.5);
+}
+
+.cms-outline-blue-dark-7 {
+  color: rgb(9, 43.2, 76.5);
+}
+
+.cms-bg-blue-dark-7 {
+  background-color: rgb(9, 43.2, 76.5);
+}
+
+.cms-text-blue-dark-8 {
+  color: rgb(6, 28.8, 51);
+}
+
+.cms-outline-blue-dark-8 {
+  color: rgb(6, 28.8, 51);
+}
+
+.cms-bg-blue-dark-8 {
+  background-color: rgb(6, 28.8, 51);
+}
+
+.cms-text-blue-dark-9 {
+  color: rgb(3, 14.4, 25.5);
+}
+
+.cms-outline-blue-dark-9 {
+  color: rgb(3, 14.4, 25.5);
+}
+
+.cms-bg-blue-dark-9 {
+  background-color: rgb(3, 14.4, 25.5);
+}
+
+/*# sourceMappingURL=styles.css.map */

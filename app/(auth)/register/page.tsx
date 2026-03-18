@@ -7,7 +7,7 @@ const compulsoryFields = () => {
 
 const page = () => {
   return (
-    <div className="flex flex-col h-full w-full gap-2">
+    <div className="flex flex-col justify-center h-fit w-full gap-2">
       <div className="header w-full flex flex-col justify-center items-center">
         <h1 className="text-[1.5rem] font-semibold">Sign up for free</h1>
         <p className="text-[#000000] opacity-70">
@@ -17,9 +17,9 @@ const page = () => {
 
       <Form
         action="/api/auth/register"
-        className="flex flex-col gap-4 w-full h-full justify-center items-center pt-8"
+        className="flex flex-col gap-6 w-full h-full justify-center items-center pt-8"
       >
-        <div className="flex flex-col w-full h-full gap-4">
+        <div className="flex flex-col w-full h-full gap-8">
         {/* ----Full Name---- */}
           <div className="input flex flex-col justify-center items-stretch  w-full gap-2">
             <label htmlFor="fullName" className="text-sm text-[#414143]">
@@ -51,7 +51,7 @@ const page = () => {
           {/* ----Phone Number---- */}
           <div className="input flex flex-col justify-center items-stretch  w-full gap-2">
             <label htmlFor="phone" className="text-sm text-[#414143]">
-              Phone Number <span className="text-[#FF0000]">*</span> <span className="primary-text" >why</span>
+              Phone Number <span className="text-[#FF0000]">*</span> <span className="text" >why</span>
             </label>
             <input
               type="tel"
@@ -63,7 +63,7 @@ const page = () => {
             />
           </div>
           {/* -------Password------- */}
-          <div className="input flex flex-col justify-center items-stretch  w-full gap-2">
+          <div className="input flex flex-col justify-centerr items-stretch  w-full gap-2">
             <label htmlFor="password" className="text-sm text-[#414143]">
               Password <span className="text-[#FF0000]">*</span>
             </label>
@@ -73,13 +73,13 @@ const page = () => {
               id="password"
               placeholder="Create a strong password"
               className="w-full h-10 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-primary bg-[#FFFFFF] text-sm"
-              required
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required
             />
           </div>
 
         </div>
 
-        <button className="" >
+        <button className="cms-bg-primary-dark-1 text-white cms-text-sm  w-full py-2 cursor-pointer active:scale-90 rounded-lg" >
           Get Started
         </button>
       </Form>
