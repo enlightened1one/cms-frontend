@@ -43,7 +43,7 @@ export default function AuthLayout({
 
       {/* Right Panel (Auth Forms) */}
       <div className="w-full h-full flex flex-col items-stretch justify-stretch p-8 light-bg col-span-1">
-        <div className="w-full h-full flex flex-col justify-stretch items-stretch px-8 py-6">{children}</div>
+        <div className="w-full h-full flex flex-col justify-center items-stretch px-8 py-6">{children}</div>
       </div>
     </div>
   );
