@@ -50,7 +50,7 @@ const page = () => {
         <button className="cms-bg-primary-dark-1 text-white cms-text-sm  w-full py-2 cursor-pointer active:scale-90 rounded-lg">
           Submit
         </button>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 -mt-2">
           <p className="text-[#000000] opacity-70 ">
             Don&apos;t have an account yet?
           </p>
