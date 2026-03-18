@@ -9,7 +9,7 @@ export default function AuthLayout({
   return (
     <div className="grid min-h-screen grid-cols-1 md:grid-cols-2 w-screen">
       {/* Left Panel */}
-      <div className="hidden md:flex flex-col justify-between itece bg-primary-light-1 text-white px-16 pt-8 gap-8 relative overflow-y-hidden">
+      <div className="hidden md:flex flex-col justify-between items-center bg-primary-light-1 text-white px-16 pt-8 gap-8 relative overflow-y-hidden">
       <img src="/assets/svg/bigDots.svg" className="absolute bottom-0 left-0" alt="" />
       <img src="/assets/svg/dots.svg" className="absolute top-0 right-0" alt="" />
         <div className="w-full">
