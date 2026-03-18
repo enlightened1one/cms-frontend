@@ -53,16 +53,16 @@ $colors: (
   // dark variations
   @for $i from 1 through 9 {
     .text-#{$key}-dark-#{$i} {
-      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
+      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with black(the colors in the loop(primary, secondary, error etc)
       color: mix(black, $val, $i * 10);
     }
 
     .outline-#{$key}-dark-#{$i} {
-      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
+      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with black(the colors in the loop(primary, secondary, error etc)
       color: mix(black, $val, $i * 10);
     }
     .bg-#{$key}-dark-#{$i} {
-      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with white(the colors in the loop(primary, secondary, error etc)
+      // when i is 1,2,3 etc(10%,20%,30% etc,) mix the value with black(the colors in the loop(primary, secondary, error etc)
       background-color: mix(black, $val, $i * 10);
     }
   }
