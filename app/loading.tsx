@@ -1,16 +1,11 @@
-import React from 'react'
-
-
+import React from "react";
 
 const loading = () => {
-    
   return (
     <div>
-      <div class="dots">Loading...</div>
-
-
+      <div className="dots">Loading...</div>
     </div>
-  )
-}
+  );
+};
 
-export default loading
+export default loading;

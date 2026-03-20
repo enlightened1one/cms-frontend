@@ -7,9 +7,9 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="grid min-h-screen grid-cols-1 md:grid-cols-2 w-screen">
+    <div className="grid max-h-screen h-full grid-cols-1 md:grid-cols-2 w-screen overflow-hidden">
       {/* Left Panel */}
-      <div className="hidden md:flex flex-col justify-between h-full items-center bg-primary-light-1 text-white px-16 pt-16 gap-8 relative overflow-y-hidden">
+      <div className="hidden md:flex flex-col justify-between h-full max-h-full overflow-hidden items-center bg-primary-light-1 text-white px-16 pt-16 gap-8 relative overflow-y-hidden">
         <img
           src="/assets/svg/bigDots.svg"
           className="absolute bottom-0 left-0"
@@ -66,8 +66,8 @@ export default function AuthLayout({
       </div>
 
       {/* Right Panel (Auth Forms) */}
-      <div className="w-full h-full flex flex-col items-stretch justify-stretch p-8 light-bg col-span-1">
-        <div className="w-full h-full flex flex-col justify-center items-stretch px-8 py-6">
+      <div className="w-full h-full flex flex-col items-stretch justify-stretch p-8 light-bg dark:bg-primary-dark-8 col-span-1">
+        <div className="w-full h-full flex flex-col justify-center items-stretch max-md:px-4 px-8 py-6">
           {children}
         </div>
       </div>
